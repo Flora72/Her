@@ -340,4 +340,72 @@ audio {
   border-radius: 12px;
   box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
 }
-/* End of styles */
+@media (max-width: 600px) {
+  body, html {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .poetic-opening {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    padding: 0 1rem;
+  }
+
+  .action-btn {
+    width: 90%;
+    font-size: 0.95rem;
+    padding: 0.8rem 1.2rem;
+    margin: 1.5rem auto;
+  }
+
+  .letter {
+    padding: 1rem;
+    background-size: cover;
+    align-items: flex-start;
+  }
+
+  .letter-content {
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin-top: 1rem;
+    max-width: 90%;
+  }
+
+  .room {
+    padding: 1.5rem;
+    font-size: 1rem;
+    margin: 1rem;
+  }
+
+  .room-quote {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .room-text {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .final-message {
+    font-size: 1.5rem;
+    bottom: 20px;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  .image-reveal img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+
+  .centered-block {
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+}
+
