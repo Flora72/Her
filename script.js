@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Final message element
   const finalMessage = document.createElement("p");
   finalMessage.className = "final-message";
-  finalMessage.textContent = "Love, Mariposa";
+  finalMessage.textContent = "Made with Love 🫰🫰";
 
   // Phase 1: Fade to black after poetic intro
   setTimeout(() => {
