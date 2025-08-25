@@ -201,7 +201,18 @@ html, body {
   padding: 2rem;
   max-width: 800px;
   color:black;
-  font-family: 'Playfair Display', serif;
+ .letter-content {
+  margin-top: 2rem; /* reduced top space */
+  padding: 2rem;
+  max-width: 800px;
+  color: #3e2f1c;
+  font-family: 'Dancing Script', cursive;
+  font-style: italic;
+  text-shadow: 0 0 1px rgba(50, 30, 10, 0.3);
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+}
+
   font-size: 1.2rem;
   line-height: 2rem;
 }
